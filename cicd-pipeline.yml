@@ -11,14 +11,13 @@ pool:
 
 stages:
   - stage: Test
-    displayName: Tst
+    displayName: Test
     jobs:
       - deployment: Deploy
-        displayName: Deploy Databricks and Data Lake files
-        environment: Tst
+        displayName: Deploy Databricks Notebook
+        environment: TEST
         variables:          
-          - group: Common
-          - group: Tst
+          - group: Test
         strategy:
           runOnce:
             deploy:
@@ -35,5 +34,5 @@ stages:
                   subscriptionId: '$(Subscription.Id)'
                   tenantId: '$(Tenant.Id)'
                   region: '$(ResourceGroup.Location)'
-                  localPath: 'Platform/Databricks/notebooks'
-                  databricksPath: '/notebooks'
+                  localPath: 'notebooks'
+                  databricksPath: '/Shared'
