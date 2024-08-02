@@ -1,20 +1,8 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+https://www.youtube.com/watch?v=qFvcddrrZnA
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+https://www.youtube.com/watch?v=M7t1T1Q5MNc
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+https://medium.com/ecovadis-engineering/databricks-ci-cd-using-azure-devops-part-ii-cd-8d7b49b9f686
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+https://github.com/kumar-sendhi/databricks-demo/blob/main/azure-pipelines.yml
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
